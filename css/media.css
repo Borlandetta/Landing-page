@@ -1,0 +1,234 @@
+@media (max-width: 1024px) {
+
+    .nav_toggle {    
+        display: inline-block;
+    }
+
+
+    .nav ul {
+        display: none;
+    }
+
+    
+
+    .nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #ffffffa9;
+        padding: 5%;
+        min-width: 200px;
+        text-align: center;
+    }
+
+    .nav ul li {
+        margin-bottom: 50px;
+    }
+
+    .nav ul li a {
+        font-size: 25px;
+        padding-left: 0px;
+    }
+
+    .card {
+        order: -1;
+    }
+
+    .promo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo_wrapper {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.726);
+        padding: 10px;
+        box-shadow: 1px 1px 5px #e74c4c;
+    }
+
+    .services_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_item {
+        padding-bottom: 50px;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+    }
+
+    .services_item h2,
+    .services_item p {
+        padding: 15px;
+    }
+
+    .services_icon {
+        margin-top: 20px;
+    }
+
+    .about_us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .procents_list {
+        flex-direction: column;
+    }
+
+    .partners_icon {
+        flex-direction: column;
+    }
+    
+    .map .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .iframe_map {
+        position: relative;
+    }
+
+    .map {
+        height: 800px;
+        position: relative;
+    }
+    
+    .contacts {
+        display: block;
+        width: 100%;
+        order: -1;
+        text-align: center;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social_medea {
+        flex-direction: column;
+    }
+    
+    .social_medea_icon {
+        margin: 20px;
+    }
+
+    .card_text {
+        display: none;
+    }
+
+    .about {
+        order: -1;
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(70px, auto);
+        grid-gap: 24px;
+        grid-template-areas: 
+          "tt   tt"
+          "nm   nm"
+          "em   em"
+          "lt   lt"
+          "sd   sd";
+    }
+    .fb {
+        background-image: url("../img/fb.png");
+        background-color: #5c5e85;
+        cursor: pointer;
+    }
+
+    .vk {
+        background-image: url("../img/vk.png");
+        background-color: #1f6299;
+        cursor: pointer;
+    }
+
+    .insta {
+        background-image: url("../img/insta.png"), linear-gradient(#e664dbe3, #f39f32);
+        cursor: pointer;
+    }
+
+    .services_item p,
+    .text p,
+    .text ul li,
+    .procents_item p,
+    .contacts p,
+    .title_popup,
+    .title {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #000000;
+    }
+}   
+
+    .text h2,
+    .text p,
+    .text h3,
+    .text ul,
+    .contacts p,
+    .contacts h3,
+    .promo_wrapper h1,
+    .promo_wrapper p {
+    padding-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+
+    .promo_wrapper {
+        width: 600px;
+    }
+    
+    
+}
+
+@media (max-width: 425px) {
+
+    .promo_wrapper {
+        width: 350px;
+    }
+    .picture img {
+        width: 300px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(70px, auto);
+        grid-gap: 34px;
+        grid-template-areas: 
+          "tt   tt"
+          "nm   nm"
+          "em   em"
+          "lt   lt"
+          "sd   sd";
+    }
+
+
+} 
+
+@media (max-width: 320px) {
+
+    .promo_wrapper {
+        width: 290px;
+    }
+
+    .promo_wrapper h1 {
+        font-size: 35px;
+    }
+
+    .promo_wrapper p {
+        font-size: 28px;
+    }
+
+    .picture img {
+        width: 300px;
+    }
+
+}
